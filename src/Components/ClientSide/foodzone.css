@@ -1,0 +1,124 @@
+.card{
+    height: 45vh;
+    width: 20vw;
+    margin: 10px;
+    position: relative;
+}
+.para{
+    background: linear-gradient(rgb(109, 126, 138) 0%, hsla(186, 54%, 47%) 35%, hsla(190, 57%, 78%) 100%);
+    opacity: 0.25;
+    height: 30vh;
+    position: relative;
+    z-index: 1;
+    top: 0em;
+}
+.content{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    gap:5em;
+    background-color: #275d81;
+    padding: 5px;
+    margin: 0px;
+    height: 16.5vh;
+}
+.button{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    top: 1em;
+    right: 18em;   
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 5px;
+    height: 3vh;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.button .buy{
+    position: relative;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+}
+.list{
+    list-style-type: none;
+    text-shadow: 0px 1px 1px #613535;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px #000000;
+    background-color: rgb(218, 230, 233);
+    padding:10px;
+    width:fit-content;
+    text-align:center;
+}
+.rating{
+    position: relative;
+    z-index: 1;
+    top: -6.5em;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .card img:hover{
+    transform: scale(1.2, 1.2);
+} */
+
+@media screen and (max-width: 768px) {
+ .card{
+     width: 50vw !important;
+     top: 36em;
+ }   
+ .card img{
+     width: 60vw !important;
+     height: 20vh;
+ }
+ .cardmain{
+    height: 45vh;
+    margin-top: -3em;
+    border:0px 2px 3px #000000;
+}
+ .para{
+     height: 25vh;
+     width: 60vw;
+ }
+ .card .content{
+     height: 15vh;
+     width: 57.2vw;
+     font-size: 13px;
+     gap: 5em;
+     bottom: 3em;
+ }
+ .rating{
+    top: -5.3em;
+    left: 1em;
+ }
+ .responsive{
+     display: flex;
+     flex-direction: column;
+     flex-shrink: 3em;    
+ }
+ .card .button{
+     top: 13.5em;
+     width: 43vw;
+     cursor: pointer;
+ }
+ .list{
+     font-size: 12px;
+ }
+ /* .responsiveimage{
+     width: 20vw !important;
+     height: 11vh !important;
+     left: -0.5em; 
+ }*/
+ /* .responsivehead{
+     height: 31vh;
+ } */
+}
